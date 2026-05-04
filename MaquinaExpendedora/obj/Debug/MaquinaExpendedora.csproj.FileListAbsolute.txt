@@ -1,0 +1,12 @@
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\MaquinaExpendedora.exe.config
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\MaquinaExpendedora.exe
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\MaquinaExpendedora.pdb
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.csproj.AssemblyReference.cache
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.FrmMaquina.resources
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.Properties.Resources.resources
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.csproj.GenerateResource.cache
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.csproj.CoreCompileInputs.cache
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.exe
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.pdb
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\click.wav
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\dinero.wav
