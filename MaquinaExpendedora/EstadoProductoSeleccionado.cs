@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MaquinaExpendedora
 {
+    // Estado donde el usuario ya seleccionó un producto
     public class EstadoProductoSeleccionado : IEstado
     {
         public void InsertarDinero(Contexto c)
@@ -33,16 +34,6 @@ namespace MaquinaExpendedora
             c.Estado = new EstadoEsperandoDinero();
         }
 
-        private int ObtenerPrecio(string producto)
-        {
-            switch (producto)
-            {
-                case "Coca": return 20;
-                case "Sabritas": return 30;
-                case "Pocky": return 30;
-                case "Suavicrema": return 20;
-                default: return 20;
-            }
-        }
+
     }
 }

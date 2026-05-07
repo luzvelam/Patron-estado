@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MaquinaExpendedora
 {
+    // Estado donde la maquina está entregando el producto
     public class EstadoDespachandoProducto : IEstado
     {
         public void InsertarDinero(Contexto c)

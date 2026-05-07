@@ -45,11 +45,23 @@
             this.btnComprar = new System.Windows.Forms.Button();
             this.lblMensaje = new System.Windows.Forms.Label();
             this.salir = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picSuavicrema)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSabritas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPocky)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCoca)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -244,12 +256,98 @@
             this.salir.Text = "x";
             this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Location = new System.Drawing.Point(422, 109);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 343);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Location = new System.Drawing.Point(207, -2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 310);
+            this.panel4.TabIndex = 11;
+            // 
+            // panel5
+            // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Location = new System.Drawing.Point(427, 451);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(219, 10);
+            this.panel5.TabIndex = 11;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Location = new System.Drawing.Point(-2, -2);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(246, 10);
+            this.panel6.TabIndex = 12;
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.panel8);
+            this.panel7.Location = new System.Drawing.Point(427, 109);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(219, 10);
+            this.panel7.TabIndex = 13;
+            // 
+            // panel8
+            // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.panel4);
+            this.panel8.Location = new System.Drawing.Point(-2, -2);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(227, 10);
+            this.panel8.TabIndex = 12;
+            // 
+            // panel9
+            // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Location = new System.Drawing.Point(644, 110);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(10, 353);
+            this.panel9.TabIndex = 11;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.LightGray;
+            this.panel10.BackgroundImage = global::MaquinaExpendedora.Properties.Resources.Captura_de_pantalla_2026_05_01_215036;
+            this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Location = new System.Drawing.Point(483, 484);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(108, 31);
+            this.panel10.TabIndex = 2;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(471, 407);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(117, 23);
+            this.btnCancelar.TabIndex = 14;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // FrmMaquina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(671, 753);
+            this.ClientSize = new System.Drawing.Size(677, 753);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.panel10);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.salir);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnComprar);
@@ -270,6 +368,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSabritas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPocky)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCoca)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,6 +395,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
 

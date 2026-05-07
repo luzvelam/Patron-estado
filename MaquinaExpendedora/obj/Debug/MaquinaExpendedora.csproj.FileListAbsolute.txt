@@ -10,3 +10,4 @@ C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\Maqu
 C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\obj\Debug\MaquinaExpendedora.pdb
 C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\click.wav
 C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\dinero.wav
+C:\Users\lucer\source\repos\MaquinaExpendedora\MaquinaExpendedora\bin\Debug\sonido.wav

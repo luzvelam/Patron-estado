@@ -28,7 +28,7 @@ namespace MaquinaExpendedora
 
         public void Cancelar(Contexto c)
         {
-            c.Mensaje = "Nada que cancelar";
+            c.Mensaje = "";
         }
     }
 

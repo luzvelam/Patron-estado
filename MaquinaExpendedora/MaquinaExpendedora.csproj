@@ -123,6 +123,9 @@
     </Content>
     <Content Include="Properties\click.wav" />
     <Content Include="Properties\dinero.wav" />
+    <Content Include="sonido.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

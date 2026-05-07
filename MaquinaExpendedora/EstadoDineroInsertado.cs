@@ -7,6 +7,7 @@ using System.Windows.Forms;
 
 namespace MaquinaExpendedora
 {
+    // Estado donde el usuario ya ha insertado dinero
     public class EstadoDineroInsertado : IEstado
     {
         public void InsertarDinero(Contexto c)

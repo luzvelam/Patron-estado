@@ -32,11 +32,14 @@ namespace MaquinaExpendedora
         Contexto contexto = new Contexto();
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-           
+            // Se selecciona el producto
             productoSeleccionado = "Coca";
+            // Mensaje en pantalla
             lblMensaje.Text = "Seleccionaste Coca-Cola";
 
+            // Se guarda en el contexto
             contexto.Producto = productoSeleccionado;
+            // Se llama al estado actual para manejar la selección
             contexto.Estado.SeleccionarProducto(contexto);
 
             SoundPlayer player = new SoundPlayer("click.wav");
@@ -91,7 +94,7 @@ namespace MaquinaExpendedora
 
         private void btnDinero_Click(object sender, EventArgs e)
         {
-            
+            // Se llama al estado actual para insertar dinero
             contexto.Estado.InsertarDinero(contexto);
 
           
@@ -110,20 +113,28 @@ namespace MaquinaExpendedora
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
+
             contexto.Estado.ConfirmarCompra(contexto);
 
             lblMensaje.Text = contexto.Mensaje;
             lblDinero.Text = "Dinero: $" + contexto.Dinero;
 
- 
-
-            
+            SoundPlayer player = new SoundPlayer("sonido.wav");
+            player.Play();
 
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
             
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            contexto.Estado.Cancelar(contexto);
+
+            lblMensaje.Text = contexto.Mensaje;
+            lblDinero.Text = "Dinero: $" + contexto.Dinero;
         }
     }
 }

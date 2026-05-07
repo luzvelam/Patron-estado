@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MaquinaExpendedora
 {
+    // Estado final: se entrega el producto y se devuelve el cambio
     public class EstadoDevolviendoCambio : IEstado
     {
         public void InsertarDinero(Contexto c)
